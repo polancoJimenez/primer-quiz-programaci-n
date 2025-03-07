@@ -1,18 +1,18 @@
-## Getting Started
+# 01 **Generador de Patrones Numéricos**
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+**Instrucción:**
+Escribe un programa que solicite al usuario un número entero positivo n y genere un patrón numérico en forma de triángulo. El patrón debe seguir una secuencia donde cada línea comienza con el número de línea y aumenta hasta n, y luego disminuye hasta el número de línea nuevamente.
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+# Solucion
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+    // variables
+    - n
+    - aumento
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+    //metodo
+    -crear un objeto scanner
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+    //logica
+    el programa empezará pidiendole un numero entero positivo al usuario, toda la logica esta dentro de un FOR, dentro del primer for habra otro for, dentro de los for evaluara que una variable con valor 1 sea menor que el valor que el usuario ingresa, si es menor entrara en cada iteracion, dentro del ultimo for se hara un output de los valores menores que el numero del usario, asi hasta que sea igual a ese valor
